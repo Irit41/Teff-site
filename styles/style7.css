@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     text-align: center;
     width:100%;
-    flex-wrap: wrap;
+    
     padding:1em;
     min-width: min-content;
     box-sizing: border-box;
@@ -90,9 +90,18 @@ width: 100%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding:70px;
+    /* padding:70px; */
     justify-content: center;
     background-image: url('../tmunott/dek3.jpg');
+
+
+
+
+
+
+
+
+    
     
     
 }  

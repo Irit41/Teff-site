@@ -1,11 +1,19 @@
 
+@media screen and (min-width: 992px) {
+  #buy{
 
-
-
-
+    width:150px;
+    height: 43px;
+     margin-top: 3%;
+  
+  
+  }
+  
+}
 
 #menu{
   color: aliceblue;
+  
 }
 
 .fade-in {
@@ -87,17 +95,22 @@ color: rgb(182, 159, 58);
  cursor: pointer;
 } 
 .container {
-  max-width: 960px;
+  max-width: 1080px;
+  
 }
 #body{
   background-color: rgba(57, 109, 109, 0.527);
 }
 
 .delprod {
-  background:transparent;
+  /* background:transparent; */
   border:none;
   outline:none;
   cursor:pointer;
+padding: 0 10px;
+
+  
+  
 }
 #tblh1{
   text-shadow: 2px 2px 5px teal;
@@ -121,4 +134,9 @@ color: rgb(15, 34, 70);
   font-weight: bold;
 
   
+}
+#buy{
+ border: 0ch;
+   background-color: rgba(57, 109, 109, 0.527);
+
 }

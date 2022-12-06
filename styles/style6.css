@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 725px) {
+@media only screen and (max-width: 800px) {
 
 .page2 .pp2{
   width: 100%;
@@ -11,12 +11,17 @@
 
 
 }
+@media screen and (min-width: 801px) {
+  .page2 table {
+    width:50%;
+  }
+}
 
 @media only screen and (max-width: 975px) {
 
-  .page2 table{
-    width: 75%;
-  }
+  /* .page2 table{
+    width: 95%;
+  } */
 
 }
 
@@ -36,7 +41,7 @@
 
 table {
   
-    width:30%;
+    width:90%;
   align-self:center;
     font-size:1em;
     border-collapse: collapse;

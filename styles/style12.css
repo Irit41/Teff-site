@@ -22,7 +22,9 @@
 
 .menu .content{
     display: flex;
-    justify-items: center;
+    justify-content: center;
+   
+    align-items: center;
     flex-direction: row-reverse;
     flex-wrap: wrap;
     margin-top: 40px;

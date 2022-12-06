@@ -1,23 +1,5 @@
 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
-
-
 
 
 body{
@@ -31,9 +13,13 @@ body{
     font-weight: bold;
     background-position: top;
    background-repeat: no-repeat;
-    box-sizing: border-box;
+   flex-wrap: wrap;
+   justify-content: center;
+   display: flex;
+       align-items: center;
+    /* box-sizing: border-box;
     flex-wrap: wrap;
-   overflow-x: hidden;
+   overflow-x: hidden; */
    
    
 }
@@ -47,10 +33,10 @@ body{
         padding: 30px;
         margin: auto;
         margin-top: 1em;
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
         box-shadow: 8px 8px 50px #000;
      margin-bottom: 5em;
-flex-wrap: wrap;
+
     }
     
 
@@ -141,7 +127,10 @@ background-color: rgb(120, 156, 52);
 
 
 
-
+/* .wrapper #reg_form{
+    width: 50%;
+}
+ */
 
 
 

@@ -36,6 +36,8 @@ body{
     background:rgb(63, 88, 104);
     padding: 50px;
     overflow: hidden;
+    
+    
 }
 
 .button-Box{
@@ -56,38 +58,22 @@ body{
 
 }
 
-.social{
-    margin: 2.5em auto;
-    text-align: center;
-    
 
-}
-
-.social a i{
-    cursor: pointer;
-    width: 30px;
-    font-size:20px;
-    display:inline;
-    margin: 0 12px;
-    box-shadow: 0 0 20px 0 #7f7f7f3d;
-    text-decoration: none;
-      padding:0.5em;
-      border-radius: 50%;
-}
 
 .input-group{
-    top:13em;
-    width:17.5em;
-    position: absolute;
-   
-    
+    top:10em;
+    /* width:17.5em; */
+    /* position: absolute; */
+
+/* align-self: center; */
     
 
 }
 .input-field{
     width: 100%;
+    justify-content: center;
     padding: 10px 0;
-    margin: 8px 0;
+    margin: 18px 0;
     border-top: 0;
     border-left: 0;
     border-right: 0;
@@ -102,10 +88,10 @@ body{
     font-weight: 900;
     padding: 10px 30px;
     cursor: pointer;
-    display: block;
+  
    margin-top: 2em;
-  margin-right: 2em;
- 
+
+  align-items: center;
    outline: none;
    border-radius: 30px;
     background: linear-gradient(to right,#323663,#435e36); 
@@ -114,6 +100,7 @@ body{
 .check-box{
     margin: 30px 10px 30px 5px;
     color: rgb(78, 189, 75);
+    font-size: 18px;
 
 }
 #span1{

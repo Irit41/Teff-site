@@ -197,7 +197,7 @@ ul{
 }
 .nav .navitems .nav-link:hover{
    border-radius:3%;
- 
+
     background-color: rgba(34, 121, 73, 0.123);
 
 }
@@ -215,23 +215,14 @@ a:hover{
 .nav{
     background-color: #42455a;
     width: 100%;
-    top: 0;
-    min-height:12vh;
-    
+     padding: 5px;
   transition: 0.5s;
   position: fixed;
  
     
 }
 
-.nav .nav-brand a{
 
-font-size:1.6rem ;
-padding: 1rem 0;
-text-decoration: none;
-
-
-}
 
 .nav .nav-menu{
     
@@ -265,6 +256,8 @@ text-decoration: none;
     flex-wrap: wrap;
     display: flex;
    position:fixed;
+   top: 1.2em;
+left: 20px;
 
 
 }
