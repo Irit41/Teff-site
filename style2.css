@@ -1,0 +1,170 @@
+
+
+
+@media only screen and (max-width: 750px) {
+
+ .content #secondarycontent,.content #content
+  {
+    width: 100%;
+  } 
+   
+.secondarycontent #secondarycontent{
+  width: 100%;
+} 
+
+
+ .tarns .secondarycontent,.tarns .content
+{
+  width: 100%;
+} 
+
+.tarns{
+  flex-direction: column;
+}
+.secondarycontent{
+  margin-top: 5em;
+}
+
+
+
+}
+
+
+
+
+  *
+  {
+  padding: 0em;
+  margin: 0em;
+  flex-wrap: wrap;
+  }
+
+  
+  .pp3{
+    font-size: 1.4em;
+    font-weight: 900;
+    display: flex;
+      width: 50%;
+      color:black;
+    line-height: 1.5em;
+    text-align: center;
+   margin:1em auto;
+   padding: 0;
+     background-color: rgba(255, 255, 255, 0.479);
+  }
+  
+  
+  .condi{
+      
+    
+      background-image: url('./tmunott/nnn.jpg');
+      background-size: cover;
+  background-position: center;
+      background-repeat: no-repeat;
+      
+  }
+  
+
+
+  
+
+  
+  .title {
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(90, 51, 7) 2px 2px;
+     text-align: center;
+      -webkit-background-clip: text;
+      font-size: 4.5em;
+      transition: all 1s;
+      opacity: 0.3;
+  }
+  
+  .title:hover {
+       opacity: 1;
+       font-size: 4.7em;
+       color: rgb(3, 95, 80);
+  
+  }
+  .content{
+ 
+  padding-top: 0;
+  
+  width:50%;
+}
+
+  .secondarycontent
+  {
+   
+    padding-top: 0;
+    
+    width:50%;
+  }
+  #content ,#secondarycontent{
+      width: 75%;
+      text-align: center;
+      margin: auto;
+      line-height: 1.5em;
+     
+  }
+
+  #content{
+    margin-top: 1.1em;
+    width:73%;
+  }
+    
+  
+  p:first-letter {
+    font-size: 35px;
+    display:inline-flex;
+    margin: 3px;
+    
+    
+    }
+    
+  .tarns{
+      width: 100%;
+      display: flex;
+  }
+
+
+  .tarns h4{
+      text-align: center;
+      font-size: 1.6em;
+      margin: auto;
+      color: rgb(0, 0, 0);
+    text-shadow: rgb(90, 51, 7) 2px 2px 3px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

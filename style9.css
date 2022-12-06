@@ -1,0 +1,64 @@
+
+@media only screen and (max-width: 1350px) {
+
+  .img img{
+ 
+    width:100px;
+    margin-top: 16em;
+  
+}
+
+  
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('./tmunott/thanks.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+  box-sizing: border-box;
+  padding:150px 0;
+ 
+    
+}
+
+.img{
+display: flex;
+justify-content: center;
+mix-blend-mode: multiply;
+}
+img{
+
+    margin-top: 22em;
+    margin-right: 5em;
+    width:150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

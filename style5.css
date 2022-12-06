@@ -1,0 +1,112 @@
+
+@media only screen and (max-width:800px) {
+
+ 
+       
+    .na-links{
+     
+        
+       font-size:13px;
+       padding:0;
+    }
+
+
+}
+
+
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+header{
+    display: flex;
+   width: 90%;
+    margin: auto;
+    height: 25vh;
+    align-items:center ;
+}
+nav{
+    flex: 2;
+
+}
+
+.user{
+    flex:1;
+    font-weight: 400;
+   
+
+
+    
+}
+
+
+
+.exit{
+    flex: 1;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+ .na-links, .exit{
+    display: flex;
+
+}
+.na-links{
+  position: fixed;
+  right:0;
+
+
+    flex-direction: column;
+}
+
+.na-link{
+    color: blueviolet;
+    font-size: 1.2em;
+    padding:30px;
+
+    
+   
+  
+  
+
+}
+.na-link i{
+    font-size:0.8em;
+    
+    
+}
+
+.na-link:hover{
+font-weight: 900;
+font-size: 1.27em;
+cursor: pointer;
+
+}
+
+.user i{
+    margin-left:1em;
+    font-size: 25px;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

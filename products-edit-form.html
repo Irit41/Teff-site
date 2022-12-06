@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>עריכת מוצר</title>
+      <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" >
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./js/user.js"></script>
+<script src="./js/category.js"></script>
+<script src="./js/product.js"></script>
+<script src="./js/userfunctions.js"></script>
+<script src="./js/storefunctions.js"></script>
+<script  defer src="./js/main.js"></script>
+
+<link rel="stylesheet" href="all.css" >
+<link rel="stylesheet" href="stylestore.css">
+</head>
+<body style="background-color: rgba(59, 32, 156, 0.226);" dir="rtl">
+    <section  style="width: 80%;align-items: center;background-color: rgba(255, 255, 255, 0.527);"class="mt-5 me-auto" >
+            
+        <fieldset id="addpro_form2" class="border  p-3 form-group">
+          <legend class="mb-5 control-label customer-legend pl-1">עריכת פרטי מוצר </legend>
+      
+        <form id="pro_form" class="mt-5 needs-validation m-3 row g-3">
+          <div  class="row">
+            <div class=" col-md-2">
+              <label for="formGroupExampleInput" class="form-label">קוד</label>
+              <input type="text" class="input form-control" id="code2" required>
+              
+            </div>
+            <div class="col-md-5">
+              <label for="formGroupExampleInput" class="form-label ">שם המוצר</label>
+              <input type="text" class="input form-control" id="name2" required>
+              
+            </div>
+            <div class="col-md-3">
+              <label for="inputState"  class="form-label">קטגוריה</label>
+              <select id="category2" class="input form-select" required>
+                <option selected>בחר/י קטגוריה</option>
+                <option value="1">קמחים</option>
+                <option value="2">מאפים ועוגות</option>
+                <option value="3">משקאות</option>
+              </select>
+              <div class="invalid-feedback"> *חובה </div>
+            </div>
+           
+          </div>
+          
+          <div class="col-4">
+            <label class="form-label">מחיר</label>
+            <input id="price2" type="text"  class="input form-control" required>
+            <div class="invalid-feedback"> *חובה </div>
+          </div>
+          <div class="col-4">
+            <label class="form-label">נמכר במבצע ?</label>
+            <input type="text" class="form-control" id="salePrice2" placeholder="אם כן נא להקליד מחיר חדש">
+          </div>
+          <div class="col-md-10">
+            <label for="formGroupExampleInput" class="form-label">הוספת תמונה</label>
+            <input type="text" class="input form-control" id="image2" placeholder="הכנס קישור לתמונה" required>
+            <div class="invalid-feedback"> *חובה </div>
+          </div>
+         <div class="col-md-6">
+            <label for="exampleFormControlTextarea1" class="form-label">תיאור המוצר (משקל אם יש לציין)</label>
+            <textarea class="input form-control" id="description2" rows="3" required></textarea>
+            <div class="invalid-feedback"> *חובה </div>
+          </div> 
+          
+          <div class="m-4">
+            <button type="reset" id="reset" class="btn btn-dark m-2">נקה הכל</button>
+            <button type="submit" id="submit2" class="btn btn-primary m-2" > <strong>שמור </strong></button>
+           
+          </div>
+        </form>
+      </fieldset>
+      
+      
+              </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

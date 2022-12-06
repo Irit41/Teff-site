@@ -1,0 +1,426 @@
+
+@media only screen and (max-width: 1170px) {
+
+    header .navitems .nav-link
+    {
+        display:none;
+        
+    }
+    header,
+    header.sticky
+    {
+        padding: 9px 19px;
+        
+
+    }
+   
+
+  
+
+.menutoggle
+{
+    
+    width: 60px;
+    height:60px;
+   padding:35px;
+    background: url('./tmunott/menu.png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    mix-blend-mode: color-burn;
+    margin-left: 15em;
+    justify-content: right;
+    cursor: pointer;
+    
+
+}
+
+.menutoggle.active
+{
+    background: url('./tmunott/x.png');
+    width: 60px;
+    height:60px;
+    background-size: 45px;
+    mix-blend-mode: color-burn;
+    background-repeat: no-repeat;
+    justify-content: right;
+    cursor: pointer;
+ 
+
+}
+
+header .sticky .menutoggle{
+    filter: invert(1);
+
+}
+    
+    
+  
+    header .navitems.active 
+    {
+        width: 100%;
+        height: calc(100%-80px);
+        position: fixed;
+      top:80px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      background-color: #111;
+
+    }
+
+
+
+    header .navitems.active .nav-link {
+        
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+         display: flex;
+        right: 0;
+        color: #fff;
+
+    }
+
+
+
+
+    .condi .pp3{
+        font-size:1.2em;
+         width: 100%;
+        
+      }
+    
+      .condi .title{
+        font-size:3em;
+    
+      }
+
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+   overflow-x: hidden;
+}
+
+
+section{
+    padding:100px;
+}
+
+header.sticky{
+    background-color: rgb(133, 133, 103);
+    padding: 10px 40px;
+    box-shadow:0 5px 20px rgba(0,0, 0, 0.05)  ;
+}
+header.sticky a{
+    color: rgb(255, 255, 255);
+
+
+}
+ header.sticky a.signup-btn span{
+    background-image: linear-gradient(rgb(133, 133,103),#fafafc),radial-gradient(circle at top left,#f9fd00,#15ff00);
+    color:#111;
+  font-weight: 900;
+}
+
+
+
+.nav .social{
+    padding: 1.4em 0;
+    display:flex;
+    margin-left:10em;
+
+}
+
+.social a i{
+  
+    font-size:1.2em;
+    padding:0.2em;
+}
+ h1{
+     
+font-size: 3em;
+text-align: center;
+color: rgb(48, 17, 11);
+text-shadow: 1px 1px 5px rgb(116, 86, 49);
+ }
+
+
+ .nav-link i{
+     font-size: 14px;
+ }
+
+
+
+
+
+
+a{ flex-wrap: wrap;
+    text-decoration: none;
+    color: #fff;
+ 
+}
+
+
+.nav .navitems{
+   display: flex; 
+
+}
+
+ul{
+    list-style: none;
+
+}
+
+.nav .navitems .nav-link{
+ 
+
+    padding: 1.2em 1.8em;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+   position: relative;
+
+}
+
+.nav-link a{
+    color: rgb(189, 187, 189);
+}
+.nav .navitems .nav-link:hover{
+   border-radius:3%;
+ 
+    background-color: rgba(34, 121, 73, 0.123);
+
+}
+
+a:hover{
+    color: aliceblue;
+}
+
+.btnicon{
+    font-size:2em;
+}
+
+
+
+.nav{
+    background-color: #42455a;
+    width: 100%;
+    top: 0;
+    min-height:12vh;
+    
+  transition: 0.5s;
+  position: fixed;
+ 
+    
+}
+
+.nav .nav-brand a{
+
+font-size:1.6rem ;
+padding: 1rem 0;
+text-decoration: none;
+
+
+}
+
+.nav .nav-menu{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+.nav .nav-menu .collapse .btnicon{
+    font-size: 1.4em;
+
+}
+
+
+
+
+.signup-btn{
+    
+    
+  
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid transparent ;
+    border-radius: 20px;
+    background-image: linear-gradient(#5f6383,#569696),radial-gradient(circle at top left,#f9fd00,#15ff00);
+  background-origin: border-box;
+    background-clip: content-box,border-box;
+    flex-wrap: wrap;
+    display: flex;
+   position:fixed;
+
+
+}
+
+.signup-btn span{
+    display:flex;
+    padding: 8px 22px;
+    
+
+
+}
+
+
+
+
+
+.container{
+   
+    background-color: rgb(169, 169, 169);
+}
+
+
+.header-text{
+    max-width: 25em;
+     margin: auto;
+    text-align: center;
+  
+}
+
+
+.pp1{
+    font-size: 1.5em;
+    color:bisque;
+    text-shadow: 1px 1px 3px rgb(78, 35, 0);
+    line-height:2em;
+    text-align: center;
+    margin: auto;
+
+}
+.banner{
+  
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-image: url('./tmunott/teeff.jpg');
+    background-size: cover;
+}
+
+
+.banner .content{
+    max-width:900px;
+  
+    text-align: center;
+
+}
+
+
+.banner .content h2{
+
+font-size: 5em;
+color: rgb(48, 17, 11);
+text-shadow: 1px 1px 5px rgb(116, 86, 49);
+
+
+
+
+}
+
+
+
+.general-btn{
+    padding: 0.9em 1.5em;
+    background:bisque;
+    border: 3px solid rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 2em;
+    outline: none;
+
+}
+
+.general-btn:hover{
+    letter-spacing: 5px;
+}
+
+.header-text button{
+    margin: 1em 0;
+}
+
+
+#fact{
+    background-color: #2f4604;
+    margin: 7em 0 ;
+    padding: 15em 0 ;
+}
+
+.facts{
+    background-color: rgb(153, 161, 154);
+
+width:75%;
+text-align: center;
+align-items: center;
+color:#111;
+text-shadow: -0.5px 0 rgb(142, 88, 150), 0 1px rgb(140, 125, 150), 1px 0 rgb(73, 38, 87), 0 -1px rgb(139, 25, 134);
+padding: 60px;
+margin: auto;
+box-sizing: border-box;
+box-shadow: 8px 8px 50px rgb(52, 28, 59);
+}
+
+
+#H1{
+    margin:0.3em;
+    color: rgb(52, 28, 59);
+}
+
+.PF{
+    font-size: 1.3em;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.TEFOP h1{
+    color: rgb(52, 28, 59);
+    
+}
+
+
+#footer{
+   position: relative;
+  text-align:left;
+    font-size: 1.2em;
+    color: #111;
+    font-weight: 800;
+
+}
+
+#admin_page table tr ,#admin_page table td
+{
+   border: 1px solid black;
+border-collapse: collapse;
+padding:12px;
+
+}
+
+
+
+
+
+
+
+
+
+

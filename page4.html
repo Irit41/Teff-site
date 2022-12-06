@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הרשמה</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+  <!-- Fengyuan Chen's Datepicker -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datepicker/0.6.5/datepicker.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/datepicker/0.6.5/datepicker.min.js" ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" >
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+    <!-- JavaScript Bundle with Popper -->
+   
+    <link rel="stylesheet" href="style4.css">
+   <script src="./js/israel-cities.js"></script>
+   <script src="./js/user.js"></script>
+   <script src="./js/category.js"></script>
+   <script src="./js/product.js"></script>
+   <script src="./js/userfunctions.js"></script>
+   <script src="./js/storefunctions.js"></script>
+   <script  defer src="./js/main.js"></script>
+</head>
+<body dir="rtl">
+    <div class="wrapper">
+        <form id = "reg_form">
+<h1>הרשמה</h1>
+
+<div  class="form">
+    <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" id="first_name" placeholder="* שם פרטי" required>
+        </div>
+        <div class="col">
+          <input type="text" class="form-control"id="last_name"  placeholder="*  שם משפחה" required>
+        </div>
+      </div>
+
+      <div class="row ">
+      <div class="col-4 m-2"> <!-- Date inputdata-date="" data-date-format="DD MMMM YYYY" -->
+        <label class="input-group" for="date">תאריך לידה</label>
+        <input class="form-control" id="birth_date" data-date="" data-date-format="DD MMMM YYYY" placeholder="DD/MM/YYYY"  type="date"required/>
+      </div>
+      <div class="col-5 ms-5">
+        <label for="formFile" class="form-label">בחר/י תמונה:</label>
+        <input class="form-control" type="file"  id="user_image" accept="image/jpg, image/jpeg" required/>
+      </div>
+    </div>
+
+      <div class="row">
+        <h5>כתובת מגורים </h5>
+        <div class="col-4">
+          <input type="text" id="city" class="form-control" list="cities" placeholder="עיר">
+          <datalist id="cities"></datalist>
+          
+        </div>
+        <div class="col-5">
+          <input type="text" id="street" class="form-control" placeholder="רחוב">
+        </div>
+        <div class="col-2">
+          <input type="text" id="house_num" class="form-control" placeholder="מספר">
+        </div>
+      </div>
+    
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">כתובת אימייל</label>
+        <input type="email" class="form-control" id="user_email" placeholder="name@example.com"required>
+      </div>
+     
+      <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">שם משתמש</label>
+        <input type="text" class="form-control" id="user_name" placeholder="נא להקליד אותיות באנגלית בלבד" required>
+      </div>
+      <div class="mb-3">
+        <label for="inputPassword4"> סיסמא</label>
+        <input type="password" class="form-control" id="user_password" placeholder="7-12 תווים. מינימום תו אחד מיוחד ,אות גדולה ומספר" required>
+      </div>
+      <div class="mb-3">
+        <label for="inputPassword4">אימות סיסמא</label>
+        <input type="password" class="form-control" id="user_password_con"required>
+      </div>
+    
+    </div>
+   
+ 
+    <button type="submit" id="submit">הרשמה</button>
+    
+</form>
+<img id="profile_img" style="display: none;" src="" alt="">
+ </div>
+    </div>
+
+</form>
+
+ 
+</body>
+</html>

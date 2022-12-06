@@ -1,0 +1,59 @@
+@media only screen and (max-width: 999px) {
+
+ #pro_img{
+ 
+ justify-self: center;
+ margin: auto;
+  
+}
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#game table,#game table tr ,#game table td
+{
+  border: 1px solid black;
+border-collapse: collapse;
+padding:12px 0;
+
+
+}
+#game table{
+  width: 60%;
+ flex-wrap: wrap;
+margin:auto;
+  background-color: rgba(198, 198, 211, 0.644);
+
+}
+#game table td{
+  cursor: pointer;
+ 
+}
+#game{
+  
+  display: flex;
+}
+td{
+ padding:5px;
+}
+
+.boom 
+{
+  background-color: rgb(194, 32, 32);
+}
+.miss{
+  background-color: rgb(26, 29, 150);
+}

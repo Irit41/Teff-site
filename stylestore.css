@@ -1,0 +1,124 @@
+
+
+
+
+
+
+#menu{
+  color: aliceblue;
+}
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+/* The style below is just for the appearance of the example div */
+
+.slide-right {
+  animation: 3s slide-right;
+}
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+.coteret{text-align: center;
+font-size: 3em;
+color: rgb(182, 159, 58);
+   text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+
+}
+
+ a{
+ cursor: pointer;
+} 
+.container {
+  max-width: 960px;
+}
+#body{
+  background-color: rgba(57, 109, 109, 0.527);
+}
+
+.delprod {
+  background:transparent;
+  border:none;
+  outline:none;
+  cursor:pointer;
+}
+#tblh1{
+  text-shadow: 2px 2px 5px teal;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(15, 34, 70);
+}
+.scard{
+  background:transparent;
+  border:none;
+  outline:none;
+  
+ 
+}
+
+.scard:hover{
+
+  box-shadow: 0 0 9px 9px rgb(184, 180, 180);
+}
+
+#priceFilter{
+  font-weight: bold;
+
+  
+}

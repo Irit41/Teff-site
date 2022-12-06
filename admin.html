@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מנהל מערכת</title>
+      <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" >
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./js/user.js"></script>
+<script src="./js/category.js"></script>
+<script src="./js/product.js"></script>
+<script src="./js/userfunctions.js"></script>
+<script src="./js/storefunctions.js"></script>
+<script  defer src="./js/main.js"></script>
+
+<link rel="stylesheet" href="all.css" >
+<link rel="stylesheet" href="stylestore.css">
+<link rel="stylesheet" href="prostyle.css">
+</head>
+<body>
+ <main>
+  
+        <section dir="rtl">
+            <div class="container-fluid">
+              <div class="row flex-nowrap">
+                  <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-light">
+                      <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-black min-vh-100">
+                        
+                          <div class="dropdown pb-4">
+                            <a href="#" class="d-flex align-items-center text-black text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkIBSXiQpDECyI7JCNz4mZgYE7yq2oH9CHnQ&usqp=CAU" alt="hugenerd" width="50" height="50" class="rounded-circle m-2">
+                                <div class="d-none d-sm-inline mx-1 ">ADMIN</div>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                              <li><a class="dropdown-item" onclick="clearses()">התנתקות</a></li>
+                              </ul>
+                        </div>
+                      
+                          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                              <li class="nav-item">
+                                  <a href="adminstore.html" class="nav-link mb-3 align-middle px-0">
+                                    <i class="fas fa-store"></i></i><span class="ms-1 d-none d-sm-inline">חנות</span>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 mb-3 align-middle">
+                                    <strong>       <span class="ms-1 d-none d-sm-inline">קטגוריות</span> </a></strong> 
+                                  <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                                      <li class=" mb-4 w-100">
+                                          <a href="#tblh1"  class=" option nav-link px-0"><span class="d-none d-sm-inline">טבלת משתמשים</span></a>
+                                      </li>
+                                      <li class=" mb-4 w-100">
+                                        <a onclick="hideAndShow()" class="option nav-link px-0"> <span class="d-none d-sm-inline">הוספת מוצר</span></a>
+                                    </li>
+                                    <!-- <li class=" mb-4 w-100">
+                                      <a onclick="editpro()"  class=" option nav-link px-0"><span class="d-none d-sm-inline">עריכת פרטי מוצר</span></a>
+                                  </li> -->
+                                  </ul>
+                             
+                          <hr>
+                        
+                          
+                      </div>
+                      
+                  </div>
+  
+                 
+    <section id="tab" style="width: 75%;" class="mt-4">
+     
+      <div class="mb-5 text-center" id="tblh1"> <h1>טבלת משתמשים </h1></div> 
+     
+    <div  class="adminPage">
+        <table id="admin_page" class="table table-dark table-hover ">
+          <thead>
+            <tr class="table-primary">
+              <th scope="col"></th>
+                <th scope="col">שם משתמש</th>
+                <th scope="col">שם מלא</th>
+                <th scope="col">ת.לידה</th>
+                <th scope="col">כתובת</th>
+                <th scope="col">דוא"ל</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+          </thead>
+          
+        </table>
+       
+        <section>
+            
+  <fieldset style="display:none" id="addpro_form" class="border p-3 form-group">
+    <legend class="control-label customer-legend pl-1">טופס הוספת מוצר</legend>
+
+  <form id="pro_form" class="needs-validation m-3 row g-3">
+    <div id="first_line" class="row">
+      <div class=" col-md-2">
+        <label for="formGroupExampleInput" class="form-label">קוד</label>
+        <input type="text" class="input form-control" id="code" required>
+        
+      </div>
+      <div class="col-md-5">
+        <label for="formGroupExampleInput" class="form-label ">שם המוצר</label>
+        <input type="text" class="input form-control" id="name" required>
+        
+      </div>
+      <div class="col-md-3">
+        <label for="inputState"  class="form-label">קטגוריה</label>
+        <select id="category" class="input form-select" required>
+          <option selected>בחר/י קטגוריה</option>
+          <option value="1">קמחים</option>
+          <option value="2">מאפים ועוגות</option>
+          <option value="3">משקאות</option>
+        </select>
+        <div class="invalid-feedback"> *חובה </div>
+      </div>
+     
+    </div>
+    
+    <div class="col-4">
+      <label class="form-label">מחיר</label>
+      <input id="price" type="text"  class="input form-control" required>
+      <div class="invalid-feedback"> *חובה </div>
+    </div>
+    <div class="col-4">
+      <label class="form-label">נמכר במבצע ?</label>
+      <input type="text" class="form-control" id="salePrice" placeholder="אם כן נא להקליד מחיר חדש">
+    </div>
+    <div class="col-md-10">
+      <label for="formGroupExampleInput" class="form-label">הוספת תמונה</label>
+      <input type="text" class="input form-control" id="image" placeholder="הכנס קישור לתמונה" required>
+      <div class="invalid-feedback"> *חובה </div>
+    </div>
+   <div class="col-md-6">
+      <label for="exampleFormControlTextarea1" class="form-label">תיאור המוצר (משקל אם יש לציין)</label>
+      <textarea class="input form-control" id="description" rows="3" required></textarea>
+      <div class="invalid-feedback"> *חובה </div>
+    </div> 
+    
+    <div class="m-4">
+      <button type="reset" id="reset" class="btn btn-dark m-2">נקה הכל</button>
+      <button type="submit" id="submits" class="btn btn-primary m-2" disabled> <strong>הוספה  </strong></button>
+     
+    </div>
+  </form>
+</fieldset>
+
+
+        </section>
+    </section>
+</div>
+</div>
+</section>
+
+</main>
+
+</body>
+</html>

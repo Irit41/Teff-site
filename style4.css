@@ -1,0 +1,223 @@
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+
+
+
+body{
+
+    margin: 0;
+    padding: 0;
+    background-image: url('./tmunott/nnn.jpg.crdownload') ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-position: top;
+   background-repeat: no-repeat;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+   overflow-x: hidden;
+   
+   
+}
+    .wrapper{
+        
+        width:40em;
+       height: 46em;
+        align-items: center;
+        color: rgb(201, 252, 63);
+        text-shadow: -0.5px 0 rgb(0, 0, 0), 0 1px black, 1px 0 black, 0 -1px black;
+        padding: 30px;
+        margin: auto;
+        margin-top: 1em;
+        box-sizing: border-box;
+        box-shadow: 8px 8px 50px #000;
+     margin-bottom: 5em;
+flex-wrap: wrap;
+    }
+    
+
+    h1{
+        font-weight: bold;
+        font-size: 2em;
+        color: #fff;
+        font-family:cursive;
+        text-align: center;
+       margin-bottom: 1em;
+    }
+   
+.wrapper input{
+    width: 100%;
+    margin-bottom: 1em;
+    
+
+}
+
+.wrapper input.textarea{
+    border:none;
+    border-bottom:2px solid #fff;
+    background:transparent;
+    outline: none;
+    height: 30px;
+    font-size: 1em;
+    opacity: 3;
+    color:rgb(255, 255, 255);
+    text-shadow: -0.5px 0 rgb(0, 0, 0), 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+ 
+   
+}
+
+#submit{
+ 
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 2.5em;
+    background-color: rgba(120, 156, 52, 0.534);
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+#submit:hover{
+cursor: pointer;
+background-color: rgb(120, 156, 52);
+
+}
+.wrapper a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+}
+.wrapper a:hover{
+    color: #fff;
+    opacity: 1;
+}
+
+.bottom-text input{
+
+     width:5%;
+    
+    
+     
+    }
+.bottom-text a{
+    width: 50%;
+   display:flex;
+   font-size: 1.2em;
+  
+
+}
+
+
+
+.social a i{
+    font-size:2em;
+    display:inline;
+    cursor: pointer;
+      padding:0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

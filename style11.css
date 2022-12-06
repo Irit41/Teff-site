@@ -1,0 +1,142 @@
+
+
+
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+   background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)),url('./tmunott/field.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+   overflow-x: hidden;
+    
+}
+
+
+
+
+
+
+.form-box{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)),url('./tmunott/field.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:25em;
+    height:480px;
+    position: relative;
+    margin: 6% auto;
+    background:rgb(63, 88, 104);
+    padding: 50px;
+    overflow: hidden;
+}
+
+.button-Box{
+    width:16em;
+    margin:25px auto ;
+    position: relative;
+    box-shadow: 0 0 20px 9px #62ff241f;
+    border-radius:30px ;
+}
+
+.Toggle-btn{
+   
+    text-align: center;
+ width:100%;
+    font-size: 1.5em;
+    font-weight: 900;
+
+
+}
+
+.social{
+    margin: 2.5em auto;
+    text-align: center;
+    
+
+}
+
+.social a i{
+    cursor: pointer;
+    width: 30px;
+    font-size:20px;
+    display:inline;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    text-decoration: none;
+      padding:0.5em;
+      border-radius: 50%;
+}
+
+.input-group{
+    top:13em;
+    width:17.5em;
+    position: absolute;
+   
+    
+    
+
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 8px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid  rgb(233, 233, 233);
+    outline: none;
+    background: transparent;
+    color: rgb(255, 255, 255);
+}
+.submit-Btn{
+    width:100%;
+    font-size: 1.7em;
+    font-weight: 900;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+   margin-top: 2em;
+  margin-right: 2em;
+ 
+   outline: none;
+   border-radius: 30px;
+    background: linear-gradient(to right,#323663,#435e36); 
+}
+
+.check-box{
+    margin: 30px 10px 30px 5px;
+    color: rgb(78, 189, 75);
+
+}
+#span1{
+    color: rgb(189, 187, 187);
+    font-size:1em;
+    bottom:15.9em;
+   
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

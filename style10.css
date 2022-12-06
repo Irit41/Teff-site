@@ -1,0 +1,83 @@
+
+
+.contact{
+    background: url('./tmunott/want.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.contactform{
+    padding: 50px 75px  50px;
+    margin-top:6em;
+    
+    background-color: rgb(230, 230, 230);
+    box-shadow: 2px 15px 50px rgba(0,0 0,0, 0.6);
+    max-width: 500px;
+   
+
+
+}
+
+
+.contactform h4{
+    color: #000;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.contactform .inputbox{
+    
+    width: 100%;
+    margin-bottom: 20px;
+
+
+}
+
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+    width:100%;
+    border:2px solid #555;
+    padding: 10px;
+    color: #000;
+    outline: none;
+    font-size: 1em;
+    font-weight: 300;
+    resize: none;
+
+}
+
+.contactform .inputbox input[type="submit"]{
+
+    font-size:1em ;
+    color: #fff;
+    background-color: #58582b;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transform: .5s;
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,106 @@
+
+
+
+
+
+.Row{
+
+    
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width:100%;
+    flex-wrap: wrap;
+    padding:1em;
+    min-width: min-content;
+    box-sizing: border-box;
+  
+    
+  
+
+
+}
+
+
+.colorsofteff h1{
+    color: rgb(14, 109, 73);
+  }
+  
+  .colorsofteff h5{
+      text-align: center;
+      font-size: 1.4em;
+      margin-bottom: 1em;
+      color: rgb(216, 209, 209);
+  }
+
+.coll{
+  
+box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+ min-width: min-content;
+min-height:300px;
+background-color:rgb(230, 228, 228);
+text-align: center;
+width: 18em;
+height:22em;
+color: rgb(178, 224, 51);
+text-shadow: -0.5px 0 rgb(0, 0, 0), 0 1px black, 1px 0 black, 0 -1px black;
+margin:auto ;
+margin-top: 3em;
+box-shadow: 8px 8px 50px #000;
+align-items: center;
+ flex-wrap: wrap;
+margin:2.5em;
+
+}
+
+
+.coll img{
+   padding:1px;
+width: 100%;
+   
+   
+    
+ 
+}
+
+.coll h4{
+    font-size: 20px;
+    margin: 0.5em 0;
+    font-size: 1.8em;
+    
+}
+.coll p{
+   width:75%;
+   margin: auto;
+   text-align: center;
+   color: #000;
+    
+}
+
+.P{
+    width: 100%;
+    margin-top: 3.5em;
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: bold;
+}
+
+#colorsofteff{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding:70px;
+    justify-content: center;
+    background-image: url('./tmunott/dek3.jpg');
+    
+    
+}  
+  
+.coll:hover{
+    width: 18.1em;
+height:22.1em;
+    box-shadow: 2px 2px 10px rgb(131, 128, 128);
+    
+
+}

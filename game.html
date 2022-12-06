@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battleships game</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" >
+<link rel="stylesheet" href="stl.css">
+<script src="./js/user.js"></script>
+<script src="./js/userfunctions.js"></script>
+    <script src="./js/functions.js"></script>
+    <script defer src="./js/main.js"></script>
+</head>
+<body>
+    <div class="container py-4">
+    <header class="pb-3 mb-4"> 
+<h2> choose your grid size :   </h2>
+<input data-size="r11"name="boardsize"type="radio"class = "iradio"id="b11"value="11">11x11<br>
+<input data-size="r12"name="boardsize"type="radio"class = "iradio"id="b12"value="12">12x12<br>
+<input data-size="r13"name="boardsize"type="radio"class = "iradio"id="b13"value="13">13x13<br>
+<input data-size="r14"name="boardsize"type="radio"class = "iradio"id="b14"value="14">14x14<br>
+<input data-size="r15"name="boardsize"type="radio"class = "iradio"id="b15"value="15">15x15<br>
+</header>
+<main>
+    <table id = "tab">
+       <tr>
+           <td>type 2</td>
+           <td> <input data-type = "2" type="text"  class = "itext" id="type2"></td>
+       </tr>
+       <tr>
+           <td>type 3</td>
+           <td>  <input   data-type = "3" type="text" class = "itext"id="type3"></td>
+       </tr>
+       <tr>
+           <td>type 4 </td>
+           <td><input  data-type = "4"  type="text" class = "itext" id="type4"></td>
+       </tr>
+       <tr>
+           <td>type 5</td>
+   
+           <td><input data-type = "5" type="text" class = "itext" id="type5"></td>
+       </tr>
+   </table>
+   <div class="d-grid mt-4 gap-2 d-md-block">
+ <button value="send" id = "play" class="btn btn-success" type="button">let's play</button>
+   <button onClick="location.reload();" value="reset" class="btn btn-secondary" type="button">clear all</button>  </div>
+   <div class="row pt-3 mt-4 text-muted border-top ">
+    <div id="game" class="col-md-8" style="display:none">
+    </div>
+   <div class="col-md-4">
+       <div  id="shipstatus"></div>
+   </div>
+  
+   </div>
+</div>
+
+
+
+</main>
+
+</body>
+</html>
