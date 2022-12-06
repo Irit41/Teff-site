@@ -23,7 +23,7 @@
     width: 60px;
     height:60px;
    padding:35px;
-    background: url('../tmunott/menu.png');
+    background: url('../pics/menu.png');
     background-size: 50px;
     background-repeat: no-repeat;
     mix-blend-mode: color-burn;
@@ -36,7 +36,7 @@
 
 .menutoggle.active
 {
-    background: url('../tmunott/x.png');
+    background: url('../pics/x.png');
     width: 60px;
     height:60px;
     background-size: 45px;
@@ -303,7 +303,7 @@ left: 20px;
     display: flex;
     justify-content: center;
     align-items:center;
-    background-image: url('../tmunott/teeff.jpg');
+    background-image: url('../pics/teeff.jpg');
     background-size: cover;
 }
 

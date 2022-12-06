@@ -58,7 +58,7 @@ function createProducts(){
  
  let code = `a22a`
  let name = `שק קמח טף (הזן הלבן)`
- let image =  `http://127.0.0.1:5500/tmunott/whitetefbeg.jpg`
+ let image =  `http://127.0.0.1:5500/pics/whitetefbeg.jpg`
 let  description = `משקל : 25 ק"ג `
 let category = `קמחים`
 let price = 300
@@ -67,7 +67,7 @@ let product = new Product(code,name,image,category,description,price,salePrice)
 
 products_arr.push(product)
 code = `cr4`
-image =  `http://127.0.0.1:5500/tmunott/beg.jpg`
+image =  `http://127.0.0.1:5500/pics/beg.jpg`
 description = `משקל : 50 ק"ג `
 category = `קמחים`
 price = 750
@@ -77,7 +77,7 @@ product = new Product(code,name,image,category,description,price,salePrice)
 products_arr.push(product)
 code = `ewer3`
 name = `עוגיות טף חלבה`
-image =  `http://127.0.0.1:5500/tmunott/cookies.jpg`
+image =  `http://127.0.0.1:5500/pics/cookies.jpg`
 description = `משקל : 180 גרם `
 category = `מאפים ועוגות`
 price = 27
@@ -87,7 +87,7 @@ products_arr.push(product)
 
 code =`asd2sdf`
 name = `לחם טף`
-image =  `http://127.0.0.1:5500/tmunott/bread.jpg`
+image =  `http://127.0.0.1:5500/pics/bread.jpg`
 description = `פרווה `
 category = `מאפים ועוגות`
 price = 12.90
@@ -98,7 +98,7 @@ products_arr.push(product)
 
 code =`ee5`
 name = `דייסה`
-image = `http://127.0.0.1:5500/tmunott/deisa.jpg`
+image = `http://127.0.0.1:5500/pics/deisa.jpg`
 description = `תערובת מקמח טף להכנה מהירה `
 category = `משקאות`
 price = 29.50
@@ -109,7 +109,7 @@ products_arr.push(product)
 
 code = `sfsdf1`
 name = `בירה אתיופית (טלה - Tella)`
-image = `http://127.0.0.1:5500/tmunott/tella.jpg`
+image = `http://127.0.0.1:5500/pics/tella.jpg`
 description = `500 מ"ל`
 category = `משקאות`
 price = 34.90
@@ -120,7 +120,7 @@ products_arr.push(product)
 
 code = `dpg8`
 name = `עוגת שוקולד טף `
- image = `http://127.0.0.1:5500/tmunott/storecake.jpg`
+ image = `http://127.0.0.1:5500/pics/storecake.jpg`
  description = `משקל : 250 גרם`
  category = `מאפים ועוגות`
  price = 39.90
@@ -131,7 +131,7 @@ name = `עוגת שוקולד טף `
 
  code =`iyuiyi54646`
  name = `שק קמח טף (הזן האדום) `
- image = `http://127.0.0.1:5500/tmunott/redtype.jpg`
+ image = `http://127.0.0.1:5500/pics/redtype.jpg`
  description = `משקל : 11.34 ק"ג`
  category = `קמחים`
  price = 249.90
@@ -142,7 +142,7 @@ name = `עוגת שוקולד טף `
 
  code =`3424dsd`
  name = `קמח טף לבן `
- image = `http://127.0.0.1:5500/tmunott/smallkemah.jpg`
+ image = `http://127.0.0.1:5500/pics/smallkemah.jpg`
  description = `משקל : 1 ק"ג `
  category = `קמחים`
  price = `17.90`
@@ -152,7 +152,7 @@ name = `עוגת שוקולד טף `
 
  code = `555bg`
  name = `פוקאצות טף`
- image = `http://127.0.0.1:5500/tmunott/fukacha.jpg`
+ image = `http://127.0.0.1:5500/pics/fukacha.jpg`
  description = `3 יחידות במארז `
  category = `מאפים ועוגות`
  price = 29.90
@@ -162,7 +162,7 @@ name = `עוגת שוקולד טף `
 
  code = `888s`
  name = `אינגרה (injera) `
- image = `http://127.0.0.1:5500/tmunott/injera.jpg`
+ image = `http://127.0.0.1:5500/pics/injera.jpg`
  description = `10 יחידות בחבילה `
  category = `מאפים ועוגות`
  price = 29.90
@@ -173,7 +173,7 @@ name = `עוגת שוקולד טף `
 
  code =`dgdfg999`
  name = `פנקייקים מקמח טף `
-image = `http://127.0.0.1:5500/tmunott/teff-pancakes.jpg`
+image = `http://127.0.0.1:5500/pics/teff-pancakes.jpg`
  description = `7 יחידות בחבילה `
     category = `מאפים ועוגות`
     price = 45
