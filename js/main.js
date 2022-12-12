@@ -71,7 +71,7 @@ document.querySelector(`#btn_edit`).addEventListener(`click`, updateUsersArray);
 ShowUserInfo()
 }
 
-if (location.href.indexOf(`page11.html`)==-1 &&login_user==null && location.href.indexOf(`page1.html`)==-1 && location.href.indexOf(`page4.html`)==-1&&location.href.indexOf(`store.html`)==-1&&location.href.indexOf(`cart.html`)==-1) {
+if (location.href.indexOf(`page11.html`)==-1 &&login_user==null && location.href.indexOf(`index.html`)==-1 && location.href.indexOf(`page4.html`)==-1&&location.href.indexOf(`store.html`)==-1&&location.href.indexOf(`cart.html`)==-1) {
   
   location.href = `page4.html`
 }

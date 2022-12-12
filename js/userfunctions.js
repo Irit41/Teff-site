@@ -432,7 +432,7 @@ function check() {
 
 function clearses() {
   sessionStorage.clear();
- location.href = `page1.html`;
+ location.href = `index.html`;
 }
 function updateCurrentUser(event) {
   event.preventDefault()
