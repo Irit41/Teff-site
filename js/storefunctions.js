@@ -1,4 +1,4 @@
-
+import {  Product } from "./Product";
 var products_arr = new Array()
 
 function priceFilter(event) {
