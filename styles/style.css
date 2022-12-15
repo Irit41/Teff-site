@@ -22,12 +22,14 @@
     
     width: 60px;
     height:60px;
-   padding:35px;
+   padding:5px;
+   /* padding:35px; */
     background: url('../pics/menu.png');
     background-size: 50px;
     background-repeat: no-repeat;
-    mix-blend-mode: color-burn;
-    margin-left: 15em;
+    /* mix-blend-mode: color-burn; */
+    mix-blend-mode:darken;
+    /* margin-left: 15em; */
     justify-content: right;
     cursor: pointer;
     
@@ -39,8 +41,11 @@
     background: url('../pics/x.png');
     width: 60px;
     height:60px;
+    padding:5px;
+    /* padding:35px; */
     background-size: 45px;
-    mix-blend-mode: color-burn;
+    mix-blend-mode:darken;
+    /* mix-blend-mode: color-burn; */
     background-repeat: no-repeat;
     justify-content: right;
     cursor: pointer;
@@ -49,7 +54,8 @@
 }
 
 header .sticky .menutoggle{
-    filter: invert(1);
+    filter: invert(5);
+    /* filter: invert(1); */
 
 }
     

@@ -18,10 +18,12 @@
 }
 
 @media only screen and (max-width: 975px) {
-
-  /* .page2 table{
-    width: 95%;
-  } */
+  #page2 .pp2{
+    width: 100%;
+  }
+  #page2 {
+    width: 100%;
+  }
 
 }
 
@@ -69,6 +71,7 @@ table {
 
 flex-wrap: wrap;
 
+
 }
 
 
@@ -85,8 +88,6 @@ H1{
 .pp2{
   font-size: 1.3em;
   color: #000;
-  background-color: rgba(255, 255, 255, 0.568);
- 
   font-weight: 600;
   text-shadow: 1px 1px 1px rgb(78, 35, 0);
   line-height:1.5em;
