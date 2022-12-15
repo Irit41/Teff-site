@@ -1,4 +1,4 @@
-import {  Product } from "./Product";
+
 var products_arr = new Array()
 
 function priceFilter(event) {
@@ -275,7 +275,6 @@ localStorage.setItem(`products`,JSON.stringify(products_arr))
    <div class=" col-md-4 mt-5>
 <div style="width: 17rem;" class="card border-0">
  <img  style="height: 350px;" src="${product.image}" class="card-img-top"/>
-
  <div class="card-body">
  <span style="font-size:11px;">${product.category}</span></h5>
    <h5 class="card-title">${product.name}</h5>
@@ -283,12 +282,10 @@ localStorage.setItem(`products`,JSON.stringify(products_arr))
   <p class="card-text">
   <p class="text-decoration-line-through"> ${product.price} ₪ </p>
     <strong >מחיר מבצע :  ${product.salePrice} ₪ </strong></p>
-
    <button  data-product='${JSON.stringify(product)}' class="text-center btn btn-warning add-to-cart">הוספה לסל</button>
  </div>
 </div>
 </div>
-
     ` 
     if (product.salePrice === 0||product.salePrice ===null||product.salePrice ==="") {
       str = str.replace(`<strong >מחיר מבצע :  ${product.salePrice} ₪ </strong>`,`<br> `)
@@ -305,7 +302,6 @@ function printProductAdmin(product){
  <div class="col-md-3 mt-3 >
 <div style="width: 17rem;" class="card border-0">
 <img  style="height: 350px;" src="${product.image}" class="card-img-top"/>
-
 <div class="card-body">
 <span style="font-size:11px;">${product.category}</span></h5>
  <h5 class="card-title">${product.name}</h5>
@@ -319,7 +315,6 @@ function printProductAdmin(product){
 </div>
 </div>
 </div>
-
   ` 
   counter++;
   if (product.salePrice === 0||product.salePrice ===null||product.salePrice ==="") {
