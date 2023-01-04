@@ -4,7 +4,7 @@
 Responsive Ecommerce website - allows purchase of various teff products**<br/>
 In addition, the site provides information about the magical teff grain<br/>
 *Data is stored in local and session storage* <br/><br/>
-**Registration and login are required.<br/>Registered users also have the option to play "Battleships"<br/>
+**Registration and login are required.<br/>Registered users also have the option to play my version of "Battleships"<br/>
 
 
 # Screenshots
